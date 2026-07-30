@@ -1,0 +1,23 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configurações locais
+.env
+.vscode/
+
+# Arquivos do Windows
+Thumbs.db
+Desktop.ini
+
+# Arquivos do macOS
+.DS_Store
+# Base de dados do curso
+Python_M11_support material.csv
