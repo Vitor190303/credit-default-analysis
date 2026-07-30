@@ -127,7 +127,7 @@ Possíveis ações incluem campanhas de reativação, contato preventivo, renego
 ## Estrutura do projeto
 
 ```text
-projeto-inadimplencia/
+credit-default-analysis/
 ├── images/
 ├── projeto_inadimplencia.ipynb
 ├── requirements.txt
@@ -146,7 +146,7 @@ git clone LINK_DO_SEU_REPOSITORIO
 Entre na pasta:
 
 ```bash
-cd projeto-inadimplencia
+cd credit-default-analysis
 ```
 
 Crie um ambiente virtual:
