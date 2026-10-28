@@ -38,9 +38,22 @@ A variável `default` representa a situação do cliente:
 
 ## Visão geral dos dados
 
-A base original continha 10.127 registros de clientes.
+O conjunto de dados contém **10.127 registros de clientes de cartão de crédito**.
 
-Após a remoção dos registros com dados ausentes, a análise principal foi realizada com 7.081 clientes.
+Durante a análise exploratória, foram identificados valores ausentes nas variáveis `escolaridade`, `estado_civil` e `salario_anual`.
+
+Inicialmente, foi avaliada a exclusão dos registros incompletos utilizando `dropna()`. Entretanto, essa estratégia eliminaria aproximadamente **30,08% dos clientes**, reduzindo a base para 7.081 registros.
+
+Após investigar os dados ausentes, optou-se por preservar todos os registros e substituir os valores ausentes dessas três variáveis categóricas pela categoria `"Não informado"`.
+
+Com essa abordagem:
+
+- **10.127 registros foram preservados**.
+- Nenhum cliente foi excluído durante o tratamento de valores ausentes.
+- A taxa geral de inadimplência permaneceu em **16,07%**.
+- Os valores ausentes passaram a ser representados explicitamente.
+
+Essa decisão permite analisar os clientes com informações incompletas sem descartá-los, embora não elimine possíveis vieses associados à ausência desses dados.
 
 ## Principais resultados
 

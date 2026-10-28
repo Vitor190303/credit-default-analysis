@@ -21,3 +21,21 @@ Desktop.ini
 .DS_Store
 # Base de dados do curso
 Python_M11_support material.csv
+
+# Ambientes virtuais
+.venv/
+.venv_antigo/
+venv/
+env/
+
+# Cache e arquivos temporários do Python
+__pycache__/
+*.py[cod]
+
+# Arquivos temporários do Jupyter
+.ipynb_checkpoints/
+
+# Configurações locais
+.env
+.env.*
+.vscode/
