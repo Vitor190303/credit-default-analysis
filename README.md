@@ -140,7 +140,9 @@ credit-default-analysis/
 Clone o repositório:
 
 ```bash
-git clone LINK_DO_SEU_REPOSITORIO
+
+git clone https://github.com/Vitor190303/credit-default-analysis.git
+  
 ```
 
 Entre na pasta:
